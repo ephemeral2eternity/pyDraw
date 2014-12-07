@@ -6,17 +6,17 @@ from matplotlib.backends.backend_pdf import PdfPages
 
 qoeMat = json.load(open("./data/QoEMatrix.json"))
 
-agentHatches = ['*', '/', '.', '\\', '+', 'x']
-cacheAgents = ['agens-01', 'agens-02', 'agens-04', 'agens-05', 'agens-08', 'agens-09']
-allServers = ['agens-01', 'agens-02', 'agens-03', 'agens-04', 'agens-05', 'agens-06', 'agens-07', 'agens-08', 'agens-09']
-xtickName = ['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9']
-ytickName = ['A1', 'A2', 'A4', 'A5', 'A8', 'A9']
-cacheAgentsPos = [1,2,4,5,8,9]
-allServersPosition = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+agentHatches = ['*', '/', '.', '\\', 'o', '+', 'x', '0']
+cacheAgents = ['cache-agent-01', 'cache-agent-02', 'cache-agent-03', 'cache-agent-04', 'cache-agent-05', 'cache-agent-06', 'cache-agent-07', 'cache-agent-08']
+allServers = ['cache-agent-01', 'cache-agent-02', 'cache-agent-03', 'cache-agent-04', 'cache-agent-05', 'cache-agent-06', 'cache-agent-07', 'cache-agent-08']
+xtickName = ['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8']
+ytickName = ['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8']
+cacheAgentsPos = [1,3,5,7,9,11,13,15]
+allServersPosition = [1, 3, 5, 7, 9, 11, 13, 15]
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
-for c, z, agent, h in zip(['r', 'y', 'b', 'm', 'g', 'c'], cacheAgentsPos, cacheAgents, agentHatches):
+for c, z, agent, h in zip(['r', 'y', 'b', 'm', 'g', 'c', '#eeefff', '#a2a7ff'], cacheAgentsPos, cacheAgents, agentHatches):
     xs = allServersPosition
     ys = []
     qoeVec = qoeMat[agent]

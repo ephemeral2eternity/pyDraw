@@ -1,0 +1,962 @@
+{
+    "0": {
+        "Buffer": 2.308243989944458, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914579
+    }, 
+    "1": {
+        "Buffer": 5.15625, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914581
+    }, 
+    "2": {
+        "Buffer": 7.461359024047852, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914584
+    }, 
+    "3": {
+        "Buffer": 10.530601024627686, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914586
+    }, 
+    "4": {
+        "Buffer": 13.409306049346924, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914588
+    }, 
+    "5": {
+        "Buffer": 15.934406042098999, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914590
+    }, 
+    "6": {
+        "Buffer": 17.256510019302368, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914594
+    }, 
+    "7": {
+        "Buffer": 16.264217138290405, 
+        "Freezing": 0, 
+        "QoE": 3.7142753922958525, 
+        "Representation": "4", 
+        "Server": "cache-agent-02", 
+        "TS": 1417914600
+    }, 
+    "8": {
+        "Buffer": 16.532557010650635, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-02", 
+        "TS": 1417914605
+    }, 
+    "9": {
+        "Buffer": 14.593432188034058, 
+        "Freezing": 0, 
+        "QoE": 3.7142753922958525, 
+        "Representation": "4", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914612
+    }, 
+    "10": {
+        "Buffer": 16.136168956756592, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914615
+    }, 
+    "11": {
+        "Buffer": 14.976197957992554, 
+        "Freezing": 0, 
+        "QoE": 3.7142753922958525, 
+        "Representation": "4", 
+        "Server": "cache-agent-02", 
+        "TS": 1417914621
+    }, 
+    "12": {
+        "Buffer": 17.452150106430054, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-02", 
+        "TS": 1417914624
+    }, 
+    "13": {
+        "Buffer": 11.572211027145386, 
+        "Freezing": 0, 
+        "QoE": 3.7142753922958525, 
+        "Representation": "4", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914635
+    }, 
+    "14": {
+        "Buffer": 5.364284038543701, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914646
+    }, 
+    "15": {
+        "Buffer": 2.904236078262329, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-02", 
+        "TS": 1417914653
+    }, 
+    "16": {
+        "Buffer": 4.064202070236206, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-02", 
+        "TS": 1417914657
+    }, 
+    "17": {
+        "Buffer": 0, 
+        "Freezing": 5.427772045135498, 
+        "QoE": 1.2627102562727512, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914672
+    }, 
+    "18": {
+        "Buffer": 2.0519931316375732, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-02", 
+        "TS": 1417914675
+    }, 
+    "19": {
+        "Buffer": 5.055986166000366, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-02", 
+        "TS": 1417914677
+    }, 
+    "20": {
+        "Buffer": 6.803873062133789, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-02", 
+        "TS": 1417914680
+    }, 
+    "21": {
+        "Buffer": 9.551942110061646, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-02", 
+        "TS": 1417914682
+    }, 
+    "22": {
+        "Buffer": 12.292002201080322, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-02", 
+        "TS": 1417914684
+    }, 
+    "23": {
+        "Buffer": 13.531913995742798, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-02", 
+        "TS": 1417914688
+    }, 
+    "24": {
+        "Buffer": 15.951975107192993, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-02", 
+        "TS": 1417914691
+    }, 
+    "25": {
+        "Buffer": 14.896165132522583, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-02", 
+        "TS": 1417914697
+    }, 
+    "26": {
+        "Buffer": 0, 
+        "Freezing": 20.309656858444214, 
+        "QoE": 0.11657299012105016, 
+        "Representation": "1", 
+        "Server": "cache-agent-02", 
+        "TS": 1417914737
+    }, 
+    "27": {
+        "Buffer": 0, 
+        "Freezing": 0.16528701782226562, 
+        "QoE": 2.697691659150076, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914742
+    }, 
+    "28": {
+        "Buffer": 1.750978946685791, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914745
+    }, 
+    "29": {
+        "Buffer": 4.102952003479004, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914748
+    }, 
+    "30": {
+        "Buffer": 5.5061469078063965, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914752
+    }, 
+    "31": {
+        "Buffer": 8.182966947555542, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914754
+    }, 
+    "32": {
+        "Buffer": 9.582971096038818, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914758
+    }, 
+    "33": {
+        "Buffer": 11.35893201828003, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914761
+    }, 
+    "34": {
+        "Buffer": 14.354969024658203, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914763
+    }, 
+    "35": {
+        "Buffer": 15.474962949752808, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914767
+    }, 
+    "36": {
+        "Buffer": 14.658973932266235, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914773
+    }, 
+    "37": {
+        "Buffer": 16.970881938934326, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914775
+    }, 
+    "38": {
+        "Buffer": 17.142956972122192, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914780
+    }, 
+    "39": {
+        "Buffer": 15.978915929794312, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914786
+    }, 
+    "40": {
+        "Buffer": 7.575520992279053, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914800
+    }, 
+    "41": {
+        "Buffer": 8.837573051452637, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914803
+    }, 
+    "42": {
+        "Buffer": 9.55896806716919, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914808
+    }, 
+    "43": {
+        "Buffer": 11.11300802230835, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914811
+    }, 
+    "44": {
+        "Buffer": 13.726264953613281, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914814
+    }, 
+    "45": {
+        "Buffer": 14.88990306854248, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914817
+    }, 
+    "46": {
+        "Buffer": 17.603307008743286, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914820
+    }, 
+    "47": {
+        "Buffer": 19.718390941619873, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914823
+    }, 
+    "48": {
+        "Buffer": 17.746973991394043, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914830
+    }, 
+    "49": {
+        "Buffer": 17.23880696296692, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914835
+    }, 
+    "50": {
+        "Buffer": 17.78562307357788, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914839
+    }, 
+    "51": {
+        "Buffer": 17.95204997062683, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914844
+    }, 
+    "52": {
+        "Buffer": 18.66823101043701, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914849
+    }, 
+    "53": {
+        "Buffer": 20.142879962921143, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914852
+    }, 
+    "54": {
+        "Buffer": 19.394942045211792, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914858
+    }, 
+    "55": {
+        "Buffer": 19.20297908782959, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914863
+    }, 
+    "56": {
+        "Buffer": 19.19114398956299, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914868
+    }, 
+    "57": {
+        "Buffer": 21.51895499229431, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914871
+    }, 
+    "58": {
+        "Buffer": 22.542465925216675, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914875
+    }, 
+    "59": {
+        "Buffer": 23.478962898254395, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914879
+    }, 
+    "60": {
+        "Buffer": 22.09302592277527, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914885
+    }, 
+    "61": {
+        "Buffer": 21.508198022842407, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914891
+    }, 
+    "62": {
+        "Buffer": 21.302946090698242, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914896
+    }, 
+    "63": {
+        "Buffer": 20.97894310951233, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914901
+    }, 
+    "64": {
+        "Buffer": 21.84688401222229, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914905
+    }, 
+    "65": {
+        "Buffer": 22.65097188949585, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914910
+    }, 
+    "66": {
+        "Buffer": 24.378823041915894, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914913
+    }, 
+    "67": {
+        "Buffer": 26.279015064239502, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914916
+    }, 
+    "68": {
+        "Buffer": 22.550951957702637, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914925
+    }, 
+    "69": {
+        "Buffer": 22.62692093849182, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914930
+    }, 
+    "70": {
+        "Buffer": 22.8588650226593, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914934
+    }, 
+    "71": {
+        "Buffer": 22.242927074432373, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914940
+    }, 
+    "72": {
+        "Buffer": 23.22692894935608, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914944
+    }, 
+    "73": {
+        "Buffer": 23.434957027435303, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914949
+    }, 
+    "74": {
+        "Buffer": 25.122963905334473, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914952
+    }, 
+    "75": {
+        "Buffer": 22.03919792175293, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914960
+    }, 
+    "76": {
+        "Buffer": 24.330920934677124, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914963
+    }, 
+    "77": {
+        "Buffer": 27.402903079986572, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914965
+    }, 
+    "78": {
+        "Buffer": 24.0229709148407, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914973
+    }, 
+    "79": {
+        "Buffer": 25.68173599243164, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914977
+    }, 
+    "80": {
+        "Buffer": 22.71896505355835, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914985
+    }, 
+    "81": {
+        "Buffer": 24.65493106842041, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914988
+    }, 
+    "82": {
+        "Buffer": 25.174870014190674, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417914992
+    }, 
+    "83": {
+        "Buffer": 21.262912034988403, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915001
+    }, 
+    "84": {
+        "Buffer": 19.32289409637451, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915008
+    }, 
+    "85": {
+        "Buffer": 19.12685799598694, 
+        "Freezing": 0, 
+        "QoE": 3.43949168853095, 
+        "Representation": "3", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915013
+    }, 
+    "86": {
+        "Buffer": 13.918915033340454, 
+        "Freezing": 0, 
+        "QoE": 3.43949168853095, 
+        "Representation": "3", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915023
+    }, 
+    "87": {
+        "Buffer": 14.60816502571106, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915028
+    }, 
+    "88": {
+        "Buffer": 15.562381982803345, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915032
+    }, 
+    "89": {
+        "Buffer": 18.43308687210083, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915034
+    }, 
+    "90": {
+        "Buffer": 20.259252071380615, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915037
+    }, 
+    "91": {
+        "Buffer": 20.933422088623047, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915041
+    }, 
+    "92": {
+        "Buffer": 19.413822889328003, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915048
+    }, 
+    "93": {
+        "Buffer": 19.718950033187866, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915053
+    }, 
+    "94": {
+        "Buffer": 20.994965076446533, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915056
+    }, 
+    "95": {
+        "Buffer": 17.492326021194458, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915065
+    }, 
+    "96": {
+        "Buffer": 18.143338918685913, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915069
+    }, 
+    "97": {
+        "Buffer": 19.6420419216156, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915073
+    }, 
+    "98": {
+        "Buffer": 21.956723928451538, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915075
+    }, 
+    "99": {
+        "Buffer": 23.718966007232666, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915079
+    }, 
+    "100": {
+        "Buffer": 24.34469199180603, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915083
+    }, 
+    "101": {
+        "Buffer": 25.11087703704834, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915087
+    }, 
+    "102": {
+        "Buffer": 21.82083010673523, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915095
+    }, 
+    "103": {
+        "Buffer": 22.506963968276978, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915100
+    }, 
+    "104": {
+        "Buffer": 22.92616295814514, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915104
+    }, 
+    "105": {
+        "Buffer": 22.790977001190186, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915109
+    }, 
+    "106": {
+        "Buffer": 22.322927951812744, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915115
+    }, 
+    "107": {
+        "Buffer": 20.853755950927734, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915121
+    }, 
+    "108": {
+        "Buffer": 18.20896601676941, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915129
+    }, 
+    "109": {
+        "Buffer": 15.234895944595337, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915137
+    }, 
+    "110": {
+        "Buffer": 10.403335094451904, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915147
+    }, 
+    "111": {
+        "Buffer": 12.834800958633423, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915149
+    }, 
+    "112": {
+        "Buffer": 15.506781101226807, 
+        "Freezing": 0, 
+        "QoE": 2.5, 
+        "Representation": "1", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915152
+    }, 
+    "113": {
+        "Buffer": 16.91011691093445, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915155
+    }, 
+    "114": {
+        "Buffer": 19.477658987045288, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915158
+    }, 
+    "115": {
+        "Buffer": 22.490917921066284, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915160
+    }, 
+    "116": {
+        "Buffer": 25.80690908432007, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915161
+    }, 
+    "117": {
+        "Buffer": 24.114959955215454, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915168
+    }, 
+    "118": {
+        "Buffer": 26.41896390914917, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915171
+    }, 
+    "119": {
+        "Buffer": 24.742852926254272, 
+        "Freezing": 0, 
+        "QoE": 2.969745844265475, 
+        "Representation": "2", 
+        "Server": "cache-agent-01", 
+        "TS": 1417915178
+    }
+}
