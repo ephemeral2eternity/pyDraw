@@ -33,7 +33,7 @@ def square(a):
 
 
 # Load Porto Experiments on QAS_DASH
-clients = ['ireland', 'oregon', 'california', 'tokyo','singapore', 'cli-4']
+clients = ['netherland', 'ireland', 'virginia', 'iowa','texas', 'california', 'hongkong', 'singapore', 'japan']
 # clients = ['ireland']
 x = []
 y = []
@@ -96,35 +96,30 @@ for client in clients:
 
 
 # Marker size in units of points^2
-volume1 = 30 * square(ssNum)
-# volume2 = 50 * square(square(qoeRatio)) * 100
-# print qoeRatio
+# volume1 = 30 * square(ssNum)
+org = 1
+scl = 50
+qoe_improve = [(q - org)*scl for q in qoeRatio]
+print qoe_improve
+min_qoe_improve = min(qoe_improve)
+print "Minimum QoE improvement is: ", str(min_qoe_improve)
+volume_q = [(q - min_qoe_improve) for q in qoe_improve]
+volume = square(square(volume_q))
 
-fig1, ax1 = plt.subplots()
-ax1.scatter(x, y, s=volume1, alpha=0.3)
 
-ax1.set_xlabel(r'RTT to Candidate Server 1', fontsize=20)
-ax1.set_ylabel(r'RTT to Candidate Server 2', fontsize=20)
-ax1.set_title('Server switches in QAS-DASH', fontsize=20)
+fig2, ax2 = plt.subplots()
+ax2.scatter(x, y, s=volume, alpha=0.5)
 
-ax1.grid(True)
-fig1.tight_layout()
+ax2.set_xlabel(r'RTT to Candidate Server 1', fontsize=20)
+ax2.set_ylabel(r'RTT to Candidate Server 2', fontsize=20)
+ax2.set_title('QoE Improvement in QAS-DASH', fontsize=20)
+
+ax2.grid(True)
+fig2.tight_layout()
 
 plt.show()
 
-pdf = PdfPages('./imgs/ssnum_scatter.pdf')
-pdf.savefig(fig1)
+pdf = PdfPages('./imgs/qoe_improve_scatter.pdf')
+pdf.savefig(fig2)
 
 pdf.close()
-
-#fig2, ax2 = plt.subplots()
-#ax2.scatter(x, y, s=volume2, alpha=0.5)
-
-#ax2.set_xlabel(r'RTT to Candidate Server 1', fontsize=20)
-#ax2.set_ylabel(r'RTT to Candidate Server 2', fontsize=20)
-#ax2.set_title('Server switches in QAS-DASH', fontsize=20)
-
-#ax2.grid(True)
-#fig2.tight_layout()
-
-#plt.show()
