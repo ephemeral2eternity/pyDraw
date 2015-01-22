@@ -3,7 +3,10 @@ Demo of scatter plot on porto experiments with QAS-DASH Server switches.
 """
 import json
 import numpy as np
+import sys
+from operator import itemgetter
 import matplotlib.pyplot as plt
+import matplotlib.lines as plines
 import matplotlib.cbook as cbook
 from matplotlib.backends.backend_pdf import PdfPages
 
@@ -33,6 +36,8 @@ def square(a):
 
 
 # Load Porto Experiments on QAS_DASH
+datafolder = sys.argv[1]
+expNum = int(sys.argv[2])
 clients = ['netherland', 'ireland', 'virginia', 'iowa','texas', 'california', 'hongkong', 'singapore', 'japan']
 # clients = ['ireland']
 x = []
@@ -45,17 +50,19 @@ cqasSuffix = "-CQAS_DASH-BBB.json"
 pingSuffix = "-PING.json"
 
 for client in clients:
-	filePath = "./data/" + client + '/'
+	filePath = "./" + datafolder + "/"
 	clientPreffix = client + '_'
-
-	expNum = 6
 
 	for i in range(1, expNum + 1):
 		pingFileName = filePath + clientPreffix + "exp" + str(i) + pingSuffix
 		pingDat = json.load(open(pingFileName))
 
-		candidateSrvs = pingDat.keys()
-		candidateSrvs.sort()
+		# candidateSrvs = pingDat.keys()
+		# candidateSrvs.sort()
+		candidateSrvs = []
+		sortedPingDat = sorted(pingDat.items(), key=itemgetter(1), reverse=True)
+		for k, v in sortedPingDat:
+			candidateSrvs.append(k)
 		curX = pingDat[candidateSrvs[0]]
 		print "candidate server 1: ", str(curX)
 		x.append(curX)
@@ -92,23 +99,34 @@ for client in clients:
 		# qas_qoe_ratio = cqas_qoe / dash_qoe
 		# print "CQAS-DASH improves QoE with ratio: ", str(qas_qoe_ratio)
 		print "QAS-DASH improves QoE with ratio: ", str(qas_qoe_ratio)
+		print candidateSrvs
 		qoeRatio.append(qas_qoe_ratio)
 
 
 # Marker size in units of points^2
 # volume1 = 30 * square(ssNum)
 org = 1
-scl = 50
+scl = 30
 qoe_improve = [(q - org)*scl for q in qoeRatio]
 print qoe_improve
+improveNum = 0
+for q in qoe_improve:
+	if q > 0:
+		improveNum = improveNum + 1
+		
+
 min_qoe_improve = min(qoe_improve)
 print "Minimum QoE improvement is: ", str(min_qoe_improve)
+print "There are ", str(improveNum), " sessions improved!"
 volume_q = [(q - min_qoe_improve) for q in qoe_improve]
 volume = square(square(volume_q))
-
+volume1 = (0 - min_qoe_improve)**2
+volume2 = (2 - min_qoe_improve)**2
 
 fig2, ax2 = plt.subplots()
 ax2.scatter(x, y, s=volume, alpha=0.5)
+# lg = plt.Circle((1, 0), volume1, alpha=1, label="No Improvement")
+lg = plines.Line2D(range(1), range(1), color="white", marker='o',markersize=volume1, markerfacecolor="blue", label="Improvement Ratio=1")
 
 ax2.set_xlabel(r'RTT to Candidate Server 1', fontsize=20)
 ax2.set_ylabel(r'RTT to Candidate Server 2', fontsize=20)
@@ -116,6 +134,11 @@ ax2.set_title('QoE Improvement in QAS-DASH', fontsize=20)
 
 ax2.grid(True)
 fig2.tight_layout()
+
+plt.legend([lg], [lg.get_label()], numpoints=1, loc=2)
+leg = plt.gca().get_legend()
+ltext  = leg.get_texts()
+plt.setp(ltext, fontsize=16)
 
 plt.show()
 

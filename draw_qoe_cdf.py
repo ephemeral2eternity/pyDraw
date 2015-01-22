@@ -1,6 +1,7 @@
 import json
 import numpy as np
 import pylab
+import sys
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 
@@ -18,22 +19,25 @@ def draw_cdf(data, ls, lg):
 	# plt.show()
 
 # Load Porto Experiments on QAS_DASH
-clients = ['california', 'hongkong', 'iowa', 'japan','singapore', 'netherland', 'ireland', 'texas', 'virginia']
+# clients = ['california', 'hongkong', 'iowa', 'japan','singapore', 'netherland', 'ireland', 'texas', 'virginia']
 # clients = ['ireland', 'oregon', 'california', 'tokyo','singapore']
 # clients = ['ireland']
+
+datafolder = sys.argv[1]
+expNum = int(sys.argv[2])
 
 dashQoE = []
 qasDashQoE = []
 cqasDashQoE = []
-dashSuffix = "-DASH-BBB.json"
-qasSuffix = "-QAS_DASH-BBB.json"
-cqasSuffix = "-CQAS_DASH-BBB.json"
+dashSuffix = "*DASH_BBB.json"
+qasSuffix = "*QAS_DASH_BBB.json"
+cqasSuffix = "*CQAS_DASH_BBB.json"
+
+## dash_client_files = 
 
 for client in clients:
-	filePath = "./data/" + client + '/'
+	filePath = "./" + datafolder +"/"
 	clientPreffix = client + '_'
-
-	expNum = 6
 
 	for i in range(1, expNum + 1):
 		## Parse QAS-DASH Results
