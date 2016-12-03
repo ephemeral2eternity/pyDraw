@@ -63,7 +63,6 @@ for client in clients:
 		print "Session QoE in CQAS-DASH for ", client, "in exp", str(i), ": ", str(dash_qoe)
 
 
-
 fig, ax = plt.subplots()
 draw_cdf(dashQoE, 'k-', 'DASH')
 draw_cdf(qasDashQoE, 'b-o', 'QAS-DASH')

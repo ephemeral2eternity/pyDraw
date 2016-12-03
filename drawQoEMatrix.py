@@ -21,7 +21,7 @@ for c, z, agent, h in zip(['r', 'y', 'b', 'm', 'g', 'c', '#eeefff', '#a2a7ff'], 
     ys = []
     qoeVec = qoeMat[agent]
     for s in allServers:
-    	ys.append(qoeVec[s])
+        ys.append(qoeVec[s])
 
     # You can provide either a single color or an array. To demonstrate this,
     # the first bar of each set will be colored cyan.
