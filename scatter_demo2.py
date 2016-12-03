@@ -8,9 +8,9 @@ import matplotlib.cbook as cbook
 
 # Load Porto Experiments on QAS_DASH
 filePath = "./data/porto/"
-dataPreffix = "porto-QAS_DASH-"
+dataPrefix = "porto-QAS_DASH-"
 dataSuffix = "-BBB.json"
-pingPreffix = "porto-"
+pingPrefix = "porto-"
 pingSuffix = "-PING.json"
 expNum = 8
 
@@ -18,11 +18,11 @@ def getSSNum(qoeDat):
 	ss_num = 0
 	chunkID = qoeDat.keys()
 	chunkID.sort(key=int)
-	sortedServer = [qoeData[k]['Server'] for k in chunkID]
+	sortedServer = [qoeDat[k]['Server'] for k in chunkID]
 	for i in range(len(sortedServer) - 1):
 		curServer = sortedServer[i]
 		nextServer = sortedServer[i+1]
-		if nextServer != curServer
+		if nextServer != curServer:
 			ss_num = ss_num + 1
 
 	return ss_num
@@ -31,7 +31,7 @@ x = []
 y = []
 ssNum = []
 for i in range(1, 8):
-	pingFileName = filePath + pingPreffix + "exp" + str(i) + pingSuffix
+	pingFileName = filePath + pingPrefix + "exp" + str(i) + pingSuffix
 	pingDat = json.load(open(pingFileName))
 
 	candidateSrvs = pingDat.keys().sort()
@@ -40,7 +40,7 @@ for i in range(1, 8):
 	curY = pingDat[candidateSrvs[1]]
 	y.append(curY)
 
-	qoeFileName = filePath + filePreffix + "exp" + str(i) + fileSuffix
+	qoeFileName = filePath + dataPrefix + "exp" + str(i) + dataSuffix
 	qoeDat = json.load(open(qoeFileName))
 	ss_num = getSSNum(qoeDat)
 	ssNum.append(ss_num)
